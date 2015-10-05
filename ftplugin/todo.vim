@@ -48,6 +48,10 @@ vnoremap <script> <silent> <buffer> <localleader>d :call todo#txt#replace_date()
 nnoremap <script> <silent> <buffer> <localleader>x :call todo#txt#mark_as_done()<CR>
 vnoremap <script> <silent> <buffer> <localleader>x :call todo#txt#mark_as_done()<CR>
 
+" Mark not done {{{2
+nnoremap <script> <silent> <buffer> <localleader>n :call todo#txt#mark_as_not_done()<CR>
+vnoremap <script> <silent> <buffer> <localleader>n :call todo#txt#mark_as_not_done()<CR>
+
 " Mark all done {{{2
 nnoremap <script> <silent> <buffer> <localleader>X :call todo#txt#mark_all_as_done()<CR>
 
